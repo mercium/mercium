@@ -10,4 +10,14 @@ group :test do
   gem 'factory_girl_rails', '1.0'
 end
 
+group :cucumber do
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'cucumber-rails'
+  gem 'cucumber'
+  gem 'rspec-rails', '2.0.0.beta.12'
+  gem 'spork'
+  gem 'launchy'
+end
+
 # Add application specific gems here
