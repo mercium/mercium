@@ -1,0 +1,6 @@
+ActionMailer::Base.delivery_method = :smtp
+ActionMailer::Base.smtp_settings = {
+  :address => 'mail.example.com',
+  :port => 25,
+  :domain => 'www.example.com'
+}

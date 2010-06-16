@@ -3,6 +3,8 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.0.beta4'
 gem 'mysql'
 
+gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
+
 group :development do
   gem 'mongrel'
   gem 'ruby-debug'
