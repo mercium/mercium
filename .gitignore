@@ -1,6 +1,7 @@
 .bundle
 config/database.yml
 config/initializers/email.rb
+config/secret.txt
 db/*.sqlite3
 log/*.log
 tmp/**/*
