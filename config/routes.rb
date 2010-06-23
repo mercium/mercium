@@ -8,6 +8,12 @@ Mercium::Application.routes.draw do |map|
     default_url_options(:host => 'www.example.com')
   end
 
-  devise_for :customers
+  devise_for :customers,
+    :path => 'account',
+    :path_names => {
+      :sign_in  => 'login',
+      :sign_out => 'logout',
+      :sign_up  => 'register'
+    }
 
 end
