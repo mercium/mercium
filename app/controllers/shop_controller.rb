@@ -1,2 +1,2 @@
-class ShopController < ApplicationController::Base
+class ShopController < ApplicationController
 end
