@@ -4,5 +4,6 @@ config/initializers/devise.rb
 config/initializers/email.rb
 config/secret.txt
 db/*.sqlite3
+Gemfile.lock
 log/*.log
 tmp/**/*
