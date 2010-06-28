@@ -16,7 +16,7 @@ group :test do
   gem 'rspec-core', :git => 'git://github.com/rspec/rspec-core.git'
   gem 'rspec-expectations', :git => 'git://github.com/rspec/rspec-expectations.git'
   gem 'rspec-mocks', :git => 'git://github.com/rspec/rspec-mocks.git'
-  gem 'shoulda', '2.11'
+  gem 'shoulda', :git => 'git://github.com/thoughtbot/shoulda.git'
   gem 'factory_girl_rails', '1.0'
   gem 'ffaker'
 end
