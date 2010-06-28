@@ -18,4 +18,12 @@ Mercium::Application.routes.draw do |map|
       :sign_up  => 'register'
     }
 
+  devise_for :users,
+    :path => 'admin',
+    :path_names => {
+      :sign_in  => 'login',
+      :sign_out => 'logout',
+      :sign_up  => 'register'
+    }
+
 end
